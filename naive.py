@@ -2,6 +2,7 @@
 # Language: Python 3.5.0 
 
 import sys
+import time
 
 # Run through round of game
 def round(deck):
@@ -18,7 +19,7 @@ def game(count):
     
     deck = []
     origDeck = []
-    ans = 1
+    ans = 0
 
     # Generate deck and copy
     for j in range(1, count + 1):
@@ -34,8 +35,7 @@ def game(count):
         ans += 1
         
     return ans
-
-
+        
 ''' ___ MAIN ___ '''
 if len(sys.argv) == 2 and int(sys.argv[1]) > 0:
     size = int(sys.argv[1])
