@@ -19,7 +19,7 @@ def game(count):
     
     deck = []
     origDeck = []
-    ans = 0
+    ans = 1
 
     # Generate deck and copy
     for j in range(1, count + 1):

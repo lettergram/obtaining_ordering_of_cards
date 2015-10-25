@@ -2,6 +2,7 @@
 # Language: Python 3.5.0
 
 import sys
+import time
 from fractions import gcd
 
 # Finds the lowest common multiple
